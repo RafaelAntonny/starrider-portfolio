@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9F9F9;
+    color: #5e5133;
+    font-family: 'Quicksand';
+}
+
+header h1, header li a {
+    font-family: 'Montserrat';
+    color: #C0A36E;
+}
+
+header h1 {
+    font-size: 2.25rem;
+    font-weight: 500;
+}
+
+header li a {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+header li a:hover {
+    color: #7B6A44;
+}
+
+header li {
+    display: inline;
+    padding-left: 2.5rem;
+}
+
+.header-container {
+    max-width: calc(100% - 12rem); /* calcula o maximo da tela e diminui por 192 pixels */
+    margin: 1.5rem auto; /* aí acaba ficando bonito com isso :) */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dark-mode {
+    background-color: #181616;
+    color: #C0A36E;
+}
