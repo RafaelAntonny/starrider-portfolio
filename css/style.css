@@ -6,11 +6,11 @@
 
 body {
     background-color: #F9F9F9;
-    color: #5e5133;
+    color: #181616;
     font-family: 'Quicksand';
 }
 
-header h1, header li a {
+header h1, header li a, h2, h3, h4 {
     font-family: 'Montserrat';
     color: #C0A36E;
 }
@@ -27,7 +27,7 @@ header li a {
 }
 
 header li a:hover {
-    color: #7B6A44;
+    color: #5e5133;
 }
 
 header li {
@@ -45,6 +45,44 @@ header li {
 }
 
 .dark-mode {
+    background-color: #201E1E;
+    color: #F9F9F9;
+}
+
+.greeting {
     background-color: #181616;
-    color: #C0A36E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greeting-container {   
+    max-width: 75rem;
+    width: 100%;
+    margin: 0 27rem;
+    text-align: center;
+}
+
+.greeting-container div p {
+    color: #F9F9F9;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.greeting-container div h3, .greeting-container div p {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.greeting-container div h3 {
+    margin-top: 7rem;
+}
+
+.greeting-container div h2 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+svg {
+    margin-bottom: 3rem;
 }
