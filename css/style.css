@@ -21,7 +21,7 @@ header h1 {
 }
 
 header li a {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 300;
     text-decoration: none;
 }
@@ -49,18 +49,23 @@ header li {
     color: #F9F9F9;
 }
 
-.greeting {
+#home {
     background-color: #181616;
+}
+
+#about-me, #home {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
-.greeting-container {   
+.greeting-container, .container {
     max-width: 75rem;
     width: 100%;
-    margin: 0 27rem;
     text-align: center;
+}
+
+.greeting-container {   
+    margin: 0 27rem;
 }
 
 .greeting-container div p {
@@ -85,4 +90,46 @@ header li {
 
 svg {
     margin-bottom: 3rem;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.container h2 {
+    margin-top: 8rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.container h3 {
+    color: #181616;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+}
+
+.left-content, .right-content {
+    padding: 1.25rem;
+}
+
+.left-content {
+    text-align: left;
+}
+
+.right-content .skill {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    padding: 0.75rem 1rem;
+    border-radius: 0.75rem;
+    background-color: #181616;
+    color: #C0A36E;
+    text-align: center;
 }
