@@ -39,9 +39,6 @@ header li {
     max-width: calc(100% - 12rem); /* calcula o maximo da tela e diminui por 192 pixels */
     margin: 1.5rem auto; /* aí acaba ficando bonito com isso :) */
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .dark-mode {
@@ -53,8 +50,9 @@ header li {
     background-color: #181616;
 }
 
-#about-me, #home {
+.header-container, #about-me, #home, #projects {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -132,4 +130,33 @@ svg {
     background-color: #181616;
     color: #C0A36E;
     text-align: center;
+}
+
+.projects-container {
+    margin-top: 1.5rem;
+    border-radius: 0.3rem;
+    background: #181616;
+}
+
+.project {
+    width: 30%;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.project p {
+    color: #F9F9F9;
+    width: (45ch, 50%, 75ch);
+}
+
+.project h3 {
+    font-size: 1.125rem;
+    color: #C0A36E;
+}
+
+.project img {
+    width: 12rem;
+    height: auto;
+    border-radius: 0.3rem;
 }
