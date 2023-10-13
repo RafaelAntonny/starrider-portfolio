@@ -50,7 +50,7 @@ header li {
     background-color: #181616;
 }
 
-.header-container, #about-me, #home, #projects {
+.header-container, #about-me, #home, #projects, #contacts {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -82,7 +82,7 @@ header li {
 }
 
 .greeting-container div h2 {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 400;
 }
 
@@ -139,6 +139,7 @@ svg {
 }
 
 .project {
+    padding-top: 2.5rem;
     width: 30%;
     margin: 10px;
     display: inline-block;
@@ -159,4 +160,40 @@ svg {
     width: 12rem;
     height: auto;
     border-radius: 0.3rem;
+}
+
+#contacts .container h3 {
+    margin-top: 0;
+}
+
+#contacts .container input {
+    height: 2rem;
+    width: 20rem;
+    text-align: center;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+#contacts .container textarea {
+    height: 10rem;
+    width: 28rem;
+    resize: none;
+    text-align: center;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+#contacts .container button {
+    width: 16rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    background: #181816;
+    color: #C0A36E;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+#contacts .container img {
+    width: 2.5rem;
+    margin-left: 1rem;
 }
